@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Picture Project</title>
+    </head>
+    <body>
+        <h1>Hello World...!!!</h1>
+        {% for x in pics %}
+            <img src="{{x.image.url}}">
+            <p>{{x.caption}}</p>
+        {% endfor %}
+    </body>
+</html>
